@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>My App</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <style>
+            .jumbotron {
+                background: url('https://images.unsplash.com/photo-1506087100853-b7b9a33fe510?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            h1 {
+                color: darkslategrey;
+            }
+            p {
+                font-weight: 400;
+                color: darkslategrey;
+            }
+            hr {
+                background-color: darkslategrey;
+            }
+            .text-container {
+                float: right;
+                margin: 50px;
+            }
+            .text-head {
+                font-size: 300%;
+                font-weight: 400;
+            }
+            .text-content {
+                float: right;
+                font-size: 150%;
+            }
+            .card-container {
+                margin-top: 400px;
+            }
+            .card-con {
+                float: left;
+                margin: 30px;
+                width: 350px;
+            }
+            .app-download {
+                background-color:darkturquoise;
+                width: 100%;
+                text-align: center;
+                height: 400px;
+                margin-top: 1000px;
+                padding-top: 150px;
+            }
+            .card {
+                margin: 50px 0px 0px 0px;
+                float: right;
+                width: 100%;
+                height: 500px;
+            }
+            .download-sec {
+                background-color: aqua;
+                padding: 250px 0px 250px 0px;
+            }
+            .btn-dark {
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                font-size: 150%;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">My App</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#download">Download the App</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="email" placeholder="Email" aria-label="Email">
+                    <input class="form-control mr-sm-2" type="password" placeholder="Password" aria-label="Password">
+                    <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Login</button>
+                </form>
+            </div>
+        </nav>
+        <div class="jumbotron" id="home">
+            <h1 class="display-4">My AWESOME App!</h1>
+            <p class="lead">This is why you should downlaod this FANTASTIC App!</p>
+            <hr class="my-4">
+            <p>Want to Know More... Join our Mailing List</p>
+            <form class="form-inline">
+                <label class="sr-only" for="email">Email</label>
+                <div class="input-group mb-2 mr-sm-2">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">@</div>
+                    </div>
+                    <input type="text" class="form-control" id="email" placeholder="Email ID">
+                </div>     
+                <button type="submit" class="btn btn-info mb-2">Sign Up</button>
+            </form>
+        </div>
+        <div class="text-container" id="about">
+            <div class="text-head">Why this app is Awesome</div>
+            <hr class="my-4">
+            <div class="text-content">Summary of how awesome our app is</div>
+        </div>
+        <div class="card-container">
+            <div class="card-con">
+                <img class="card-img-top" src="https://images.unsplash.com/photo-1470255232880-f198a81bf146?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+            <div class="card-con">
+                <img class="card-img-top" src="https://images.unsplash.com/photo-1456957961551-4628aed85fbd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1049&q=80" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+            <div class="card-con">
+                <img class="card-img-top" src="https://images.unsplash.com/photo-1494252713559-f26b4bf0b174?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="card text-center" id="download">
+            <div class="card-body download-sec">
+                <button type="button" class="btn btn-dark">Download the app</button>
+            </div>
+          </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script>
+             
+        </script>
+    </body>
+</html>
